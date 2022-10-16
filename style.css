@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     background: #051d24;
 }
-h1{
+P{
     position: relative;
     font-size: 4em;
     letter-spacing: 15px;
@@ -41,5 +41,15 @@ h1{
         0 0 60px #fd00f1,
         0 0 80px #fd00f1,
         0 0 160px #fd00f1;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .p {
+        width: 100%;
+
+    }
+    aside {
+        width: 100%;
     }
 }
